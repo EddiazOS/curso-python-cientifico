@@ -1,0 +1,17 @@
+name: python-cientifico
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - jupyterlab
+  - ipykernel
+  - biopython
+  - pip
+  - pip:
+    - ipywidgets
