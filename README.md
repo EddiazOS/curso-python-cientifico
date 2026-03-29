@@ -59,7 +59,7 @@ Esta fase aplica los conocimientos adquiridos en la Fase 1 a problemas concretos
 |--------|--------|------|--------|
 | 7 | 13 | Química: estequiometría y equilibrio químico con Python | `05_quimica` |
 | 7 | 14 | Química: cinética química y modelado de reacciones (ODEs aplicadas) | `05_quimica` |
-| 8 | 15 | Química: termodinámica computacional y análisis espectroscópico | `05_quimica` |
+| 8 | 15 | Química: visualización molecular con RDKit y consulta de compuestos con PubChemPy | `05_quimica` |
 | 8 | 16 | Biología: introducción a la bioinformática y manejo de secuencias (Biopython) | `06_biologia` |
 | 9 | 17 | Biología molecular: análisis de secuencias de ADN/ARN y proteínas | `06_biologia` |
 | 9 | 18 | Biología molecular: alineamiento de secuencias y análisis filogenético básico | `06_biologia` |
@@ -77,7 +77,7 @@ curso-python-cientifico/
 ├── 02_pandas/                # Manipulación y análisis de datos tabulares
 ├── 03_matplotlib_seaborn/    # Visualización científica de datos
 ├── 04_scipy/                 # Estadística, optimización y simulación
-├── 05_quimica/               # Aplicaciones en Química (cinética, equilibrio, termodinámica)
+├── 05_quimica/               # Aplicaciones en Química (RDKit, ChemPy, PubChemPy)
 ├── 06_biologia/              # Aplicaciones en Biología Molecular y Bioinformática
 ├── 07_proyecto/              # Proyecto integrador final
 ├── datos/                    # Datasets de ejemplo para los módulos
@@ -100,21 +100,24 @@ jupyter lab
 ### Con pip
 
 ```bash
-pip install numpy pandas matplotlib seaborn scipy biopython jupyterlab
+pip install numpy pandas matplotlib seaborn scipy biopython rdkit chempy pubchempy jupyterlab
 ```
 
 ---
 
 ## 📚 Herramientas del Curso
 
-| Herramienta | Uso principal |
-|-------------|---------------|
-| `NumPy` | Arreglos numéricos, álgebra lineal |
-| `Pandas` | Manipulación de datos tabulares |
-| `Matplotlib / Seaborn` | Visualización científica |
-| `SciPy` | Estadística, optimización, ODEs, simulación |
-| `Biopython` | Bioinformática y biología molecular |
-| `Jupyter Lab` | Entorno interactivo de desarrollo |
+| Herramienta | Área | Uso principal |
+|-------------|------|---------------|
+| `NumPy` | Fundamentos | Arreglos numéricos y álgebra lineal |
+| `Pandas` | Fundamentos | Manipulación y análisis de datos tabulares |
+| `Matplotlib / Seaborn` | Fundamentos | Visualización científica de datos |
+| `SciPy` | Fundamentos | Estadística, optimización, ODEs y simulación |
+| `RDKit` | Química | Representación y visualización de estructuras moleculares |
+| `ChemPy` | Química | Cinética química, equilibrio y estequiometría |
+| `PubChemPy` | Química | Consulta de propiedades de compuestos en PubChem |
+| `Biopython` | Biología | Bioinformática y biología molecular |
+| `Jupyter Lab` | Entorno | Desarrollo interactivo de notebooks |
 
 ---
 
